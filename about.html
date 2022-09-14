@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <head>
+       <title>ACCESS COMPUTER COLLEGE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="LOGO.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <div class="fa">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i></div>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="https://access.pinnacle.com.ph/access/applicants/">ENROLLMENT</a></li>
+                        <li><a href="courses.html">COURSES</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="fa">
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i></div>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>WELCOME TO ACCESS COMPUTER COLLEGE</h1>
+                    <p>The country's recognized leader and pioneer in High-tech education since 1981, continues its mission to offer the most in-demand courses wherein graduates are most in-demand today. To keep pace with the rapid advancement of technology, without sacrificing thorough training. The curriculum is geared to a world class excellence. Effective Training is achieved through personalized method of teaching in small-sized classes, with actual laboratory exercises and extensive hands-on practice, aided by high-tech audio - video devices and supplemented by scheduled on-the-job training.                   </p>
+                    <a href="https://access.edu.ph/" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="about.jpg">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="sub-footer">
+            <div class="icons">
+                <a href="https://www.facebook.com/accesscomputercollege"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/ACCESSeduph"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/accesseduph/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCpEynlz36XxdUjoS_watmUg"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>PRESENTED BY: PRACTICAL RESEARCH GROUP (ICT PROGRAMMING STRAND), RIZAL HIGH SCHOOL<br>
+            C: ACCESS COMPUTER COLLEGE</p>
+        </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    </body>
+</html> 

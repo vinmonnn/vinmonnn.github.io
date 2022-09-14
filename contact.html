@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <head>
+       <title>ACCESS COMPUTER COLLEGE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="LOGO.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <div class="fa">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i></div>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="https://access.pinnacle.com.ph/access/applicants/">ENROLLMENT</a></li>
+                        <li><a href="courses.html">COURSES</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="fa">
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i></div>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15446.648469672662!2d121.0775123!3d14.5613045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7bc5713a5866c82a!2sAccess%20Computer%20College%2C%20Pasig%201%20Campus!5e0!3m2!1sen!2sph!4v1663157379277!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>11 M.H. del Pilar St, Pasig, Metro Manila</h5>
+                            <p>ACCESS COMPUTER COLLEGE</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>(02) 8942 1867</h5>
+                            <p>Opens From Monday to Saturday, 10am - 5pm</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                            <h5>rdac_edu@yahoo.com</h5>
+                            <p>Email Us!</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="">
+                        <input type="text" placeholder="Enter Your Name" required>
+                        <input type="email" placeholder="Enter Email Address" required>
+                        <input type="text" placeholder="Enter Your Subject" required>
+                        <textarea rows="8" placeholder="Message"></textarea>
+
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="footer">
+            <div class="icons">
+                <a href="https://www.facebook.com/accesscomputercollege"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/ACCESSeduph"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/accesseduph/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCpEynlz36XxdUjoS_watmUg"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>PRESENTED BY: PRACTICAL RESEARCH GROUP (ICT PROGRAMMING STRAND), RIZAL HIGH SCHOOL<br>
+            C: ACCESS COMPUTER COLLEGE</p>
+        </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    </body>
+</html> 
